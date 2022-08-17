@@ -76,7 +76,7 @@ li {
 .hero-wrapper {
   flex-direction: column;
   padding-right: 50px;
-  gap: 5px;
+  gap: 15px;
 }
 
 .call-to-action {
@@ -143,6 +143,10 @@ li {
   font-weight: 700;
 }
 
+.cta.section {
+  padding-bottom: 50px;
+}
+
 .cta-wrapper {
   justify-content: space-between;
   background: var(--call-to-action);
@@ -152,13 +156,13 @@ li {
 
 .cta-main {
   color: var(--hero-text);
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 600;
 }
 
 .cta-sub {
-  color: var(--hero-secondary);
-  font-weight: 300;
+  color: var(--hero-text);
+  font-weight: 400;
 }
 
 .cta-text {
@@ -169,6 +173,12 @@ li {
   border: 1px solid var(--hero-text);
 }
 
-* {
-  border: 1px solid red;
+footer {
+  background: var(--bg-dark);
+  color: var(--hero-secondary);
+  padding: 16px var(--side-padding);
+  text-align: center;
 }
+/* * {
+  border: 1px solid red;
+} */
